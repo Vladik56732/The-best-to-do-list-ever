@@ -16,9 +16,11 @@ const storageMass = [
         children: [],
     },
 ]
+
 storageMass.forEach(item => {
     createBlock(list, 1, item)
 })
+
 function createBlock(rootElement, level, item) {
     const lvl1 = document.createElement('div')
     if (level == 1) {
@@ -64,45 +66,3 @@ function createBlock(rootElement, level, item) {
         lvl1.remove()
     })
 }
-
-// localStorage.setItem('automobile', 'toyota')
-// const marka = localStorage.getItem('automobile')
-// console.log(marka)
-// localStorage.removeItem('automobile')
-// let r = {
-//     name: 'Gek',
-//     type: 'lizard',
-//     age: 5,
-// }
-// localStorage.setItem('automobile', JSON.stringify(r))
-// let rp = JSON.parse(localStorage.getItem('automobile'))
-// console.log(rp)
-// const list2 = [
-//     {
-//         checked: false,
-//         children: [
-//             {
-//                 checked: false,
-//                 children: [],
-//             },
-//             {
-//                 checked: false,
-//                 children: [],
-//             },
-//         ],
-//     },
-//     {
-//         checked: false,
-//         children: [],
-//     },
-// ]
-// let list1
-// if (localStorage.getItem('list')) {
-//     list1 = JSON.parse(localStorage.getItem('list'))
-// } else {
-//     list1 = list2
-// }
-// console.log(list1)
-// list1.push(...list2)
-
-// localStorage.setItem('list', JSON.stringify(list1))
