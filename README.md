@@ -21,6 +21,7 @@
 > Если что-то будет не понятно, пиши!
 
 ## Создание `personal access token`:
+
 1. Пошагово выполняем всё по [инструкции](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-personal-access-token-classic) до пункта №9, где нужно указать дату жизни токена `Expiration`, выбирай вариант `No expiration`
 2. Копируем полученный токен и сохраняем его где-нибудь, чтобы не потерять
 3. Далее нужно заново склонировать репозиторий, чтобы подтянулись все изменения
